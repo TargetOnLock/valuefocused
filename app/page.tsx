@@ -17,7 +17,7 @@ export default function Home() {
             />
           </div>
           <p className="text-xl md:text-2xl mb-8">
-            Building the Future of DeFi on Solana
+            Building the Future of GameFi on Solana
           </p>
           <div className="flex gap-4 items-center justify-center">
             <a
@@ -43,23 +43,23 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Feature 1 */}
             <div className="p-6 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all">
-              <h3 className="text-xl font-semibold mb-4">Innovative DeFi</h3>
+              <h3 className="text-xl font-semibold mb-4">Innovative GameFi</h3>
               <p className="text-gray-200">
-                Revolutionary DeFi protocols designed for sustainable growth and value creation.
+                Revolutionary GameFi protocols designed for sustainable growth and player rewards.
               </p>
             </div>
             {/* Feature 2 */}
             <div className="p-6 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all">
               <h3 className="text-xl font-semibold mb-4">Community Driven</h3>
               <p className="text-gray-200">
-                Governance and decision-making powered by our active community.
+                Governance and gaming experiences powered by our active community.
               </p>
             </div>
             {/* Feature 3 */}
             <div className="p-6 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all">
               <h3 className="text-xl font-semibold mb-4">Solana Powered</h3>
               <p className="text-gray-200">
-                Leveraging Solana's speed and efficiency for optimal performance.
+                Leveraging Solana's speed and efficiency for optimal gaming performance.
               </p>
             </div>
           </div>
@@ -73,7 +73,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-xl text-gray-200 mb-8">
-            Join our community and be part of the future of DeFi on Solana.
+            Join our community and be part of the future of GameFi on Solana.
           </p>
           <div className="flex gap-6 justify-center items-center">
             <a
