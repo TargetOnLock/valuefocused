@@ -36,10 +36,10 @@ export default function TokenomicsChart() {
     });
   }, []);
 
-  const generatePieSlice = (startAngle: number, angle: number, color: string) => {
-    const radius = 200;
-    const centerX = 250;
-    const centerY = 250;
+  const generatePieSlice = (startAngle: number, angle: number, color: string, size: number) => {
+    const radius = size / 2.5; // Adjust radius based on container size
+    const centerX = size / 2;
+    const centerY = size / 2;
     
     // Convert angles to radians
     const startRad = (startAngle - 90) * Math.PI / 180;
@@ -59,15 +59,21 @@ export default function TokenomicsChart() {
   };
 
   return (
-    <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 hover:border-purple-500/50 transition-all">
+    <div className="bg-white/10 backdrop-blur-md rounded-2xl p-4 sm:p-8 border border-white/20 hover:border-purple-500/50 transition-all">
       <h2 className="text-2xl font-semibold mb-6">Supply Distribution</h2>
-      <div className="flex flex-col md:flex-row items-center gap-8">
-        <div className="relative w-[500px] h-[500px]">
-          <svg width="500" height="500" viewBox="0 0 500 500">
+      <div className="flex flex-col lg:flex-row items-center gap-4 sm:gap-8">
+        {/* Responsive container for the pie chart */}
+        <div className="relative w-full max-w-[300px] sm:max-w-[400px] lg:max-w-[500px] aspect-square">
+          <svg
+            width="100%"
+            height="100%"
+            viewBox="0 0 500 500"
+            className="w-full h-full"
+          >
             {segments.map((segment, index) => (
               <path
                 key={index}
-                d={generatePieSlice(segment.startAngle, segment.angle, segment.color)}
+                d={generatePieSlice(segment.startAngle, segment.angle, segment.color, 500)}
                 fill={segment.color}
                 stroke="rgba(255,255,255,0.1)"
                 strokeWidth="1"
@@ -79,7 +85,8 @@ export default function TokenomicsChart() {
           </svg>
         </div>
         
-        <div className="flex flex-col gap-2">
+        {/* Legend */}
+        <div className="flex flex-col gap-2 w-full lg:w-auto">
           {segments.map((segment, index) => (
             <div key={index} className="flex items-center gap-2">
               <div 
