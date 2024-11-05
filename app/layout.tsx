@@ -128,7 +128,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable}`}>
       <body className="min-h-screen bg-fixed bg-cover bg-center" style={{ backgroundImage: 'url(/gradient.png)' }}>
         <div className="min-h-screen bg-black/30"> {/* This adds a dark overlay to improve readability */}
           <Navigation />
