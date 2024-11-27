@@ -114,6 +114,19 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Our Partners & Integrations</h2>
           <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-8 text-center">
+            {/* GemPad */}
+            <div className="p-6 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all group flex items-center justify-center">
+              <a href="https://gempad.app/presale/all" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full h-full">
+                <Image
+                  src="/Gem-Pad-Vertical.png"
+                  alt="GemPad"
+                  width={200}
+                  height={200}
+                  className="opacity-70 group-hover:opacity-100 transition-opacity object-contain max-h-[100px] w-auto"
+                />
+              </a>
+            </div>
+
             {/* DexTools */}
             <div className="p-6 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all group flex items-center justify-center">
               <a href="https://www.dextools.io/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full h-full">
