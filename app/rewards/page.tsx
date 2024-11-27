@@ -53,12 +53,12 @@ export default function Rewards() {
                 <span className="font-mono">$1 - $2</span>
               </div>
               <div className="flex justify-between items-center p-3 bg-white/5 rounded-lg">
-                <span>Burning Events</span>
-                <span className="font-mono text-orange-400">30%</span>
+                <span>Project Earnings</span>
+                <span className="font-mono text-green-400">50%</span>
               </div>
               <div className="flex justify-between items-center p-3 bg-white/5 rounded-lg">
                 <span>Winner Pool</span>
-                <span className="font-mono text-green-400">70%</span>
+                <span className="font-mono text-green-400">50%</span>
               </div>
             </div>
           </div>

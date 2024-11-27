@@ -11,11 +11,11 @@ interface TokenomicsData {
 const data: TokenomicsData[] = [
   { name: 'LP Tokens + $25,000 (Solana)', value: 5, color: '#8B5CF6' },
   { name: 'Rewards (Staking, Bridge, Farming, Holder)', value: 10, color: '#6366F1' },
-  { name: 'CEX', value: 8, color: '#06B6D4' },
+  { name: 'CEX', value: 5, color: '#06B6D4' },
   { name: 'Marketing', value: 10, color: '#14B8A6' },
-  { name: 'Initial Burn', value: 10, color: '#10B981' },
-  { name: 'Held Back/Alt pairing/bridge/mm/future LP & More', value: 34, color: '#34D399' },
-  { name: 'Presale (Airdrops)', value: 23, color: '#FB923C' },
+  { name: 'Initial Burn', value: 10, color: '#FF0000' },
+  { name: 'Held Back/Alt pairing/bridge/mm/future LP & More', value: 30, color: '#34D399' },
+  { name: 'Presale (Airdrops)', value: 30, color: '#FB923C' },
 ];
 
 export default function TokenomicsChart() {

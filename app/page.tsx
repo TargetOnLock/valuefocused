@@ -66,7 +66,26 @@ export default function Home() {
         </div>
       </section>
 
-      
+      {/* Token Distribution Section */}
+      <section className="py-20">
+        <div className="max-w-6xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold mb-6">Token Distribution</h2>
+          <p className="text-xl text-gray-200 mb-8">
+            LP Tokens + $25,000 (Solana) (5%)<br />
+            Rewards (Staking, Bridge, Farming, Holder) (10%)<br />
+            CEX (5%)<br />
+            Marketing (10%)<br />
+            Initial Burn (10%)<br />
+            Held Back/Alt pairing/bridge/mm/future LP & More (30%)<br />
+            Presale (Airdrops) (30%)<br />
+            <br />
+            Total Supply: 100M tokens<br />
+            * LP includes $25,000 (Solana)<br />
+            * Burned tokens on Solana are completely removed from circulation<br />
+            * Unused reward tokens may be burned or used to top up rewards as the token grows
+          </p>
+        </div>
+      </section>
 
       {/* CTA Section */}
       <section className="py-20">
