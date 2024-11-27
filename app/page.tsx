@@ -28,7 +28,8 @@ export default function Home() {
             </a>
             <a
               className="rounded-full border-2 border-white px-8 py-4 hover:bg-white/10 transition-colors text-lg font-semibold"
-              href="#"
+              href="/New WhitePaper v3.pdf"
+              download
             >
               Read Whitepaper
             </a>
