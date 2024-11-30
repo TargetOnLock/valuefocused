@@ -36,6 +36,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div className="flex justify-center mb-8">
+        <iframe 
+          width="480" 
+          height="500" 
+          frameBorder="0" 
+          scrolling="no" 
+          src="https://solsale.app/embed/?address=EQnMrtyvyDrqLP3pVtnfoJxCPEYxRkWcwNPjjMK9cA8H&bgColor=%2312181F&fgColor=%23161D27&hasAnimation=true&hasBanner=true&hasSocialLinks=true&network=999999&padding=30&refer=5mdDsGtTUDLrpUTfrKQ14Kk2b1hiv9ej4FJP7prkVD4x&responsive=false&saleType=presale&theme=dark&txtColor=%23FFFFFF" 
+        />
+      </div>
 
       {/* Features Section */}
       <section className="py-2">
@@ -128,7 +137,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-8 text-center">
             {/* GemPad */}
             <div className="p-6 rounded-xl bg-white/10 backdrop-blur-sm hover:bg-white/20 transition-all group flex items-center justify-center">
-              <a href="https://gempad.app/presale/all" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full h-full">
+              <a href="https://solsale.app/presale/EQnMrtyvyDrqLP3pVtnfoJxCPEYxRkWcwNPjjMK9cA8H" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full h-full">
                 <Image
                   src="/Gem-Pad-Vertical.png"
                   alt="GemPad"
